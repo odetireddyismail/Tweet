@@ -1,0 +1,24 @@
+
+*{
+  text-align: center;
+  
+}
+.box{
+ margin: 100px auto;
+ width:500px;
+padding: 10px;
+border-radius: 20px;
+}
+.container input{
+  padding: 8px 20px;
+}
+.container button{
+  padding: 8px 15px;
+}
+.container button:hover{
+  background-color: rgb(177, 177, 219);
+}
+.key{
+  background-color: rgb(247, 253, 253);
+ 
+}

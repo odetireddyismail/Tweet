@@ -1,0 +1,65 @@
+*{
+ text-align: center;
+}
+.search{
+ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    max-width: 600px;
+    margin-top: 100px;
+    background-color: rgb(190, 187, 182);
+   height:100px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 5px 10px 15px #888888;
+  }
+  .search input h1{
+  background-color:rgb(253, 252, 252);
+  opacity:0.8;
+  color: rgb(250, 246, 246);
+  font-family:Book Antiqua;
+}
+ h1{
+     color:rgb(30, 54, 68);
+     text-shadow: 2px 2px white;
+ }
+  .search input{
+     border: none;
+ }
+  
+  .key{
+    max-width: 300px;
+    background-color:rgb(210, 213, 216);
+    width:auto;
+    font-weight: 500;
+    padding:3px;
+    margin: auto;
+    margin-top: 5px;
+   
+  }
+  .key:hover{
+      background-color: rgb(172, 169, 169);
+  }
+  
+
+/* <div className='search'>
+<h1> Search box</h1>
+<input type="text" placeholder='Search' onChange={(e)=>this.search(e.target.value)}></input>
+<div>
+  {
+    this.state.searchData?
+    <div>
+      {this.state.searchData.map((item,i)=>
+      <div className='key' key={i}>
+          {item.title}
+      </div>)
+      }
+    </div>
+    :""
+  }
+  {
+    this.state.noData?<h2>No Data Found</h2>:""
+  }
+</div>
+</div> */

@@ -19,7 +19,7 @@
     "react-scripts": "5.0.0",
     "react-twitter-embed": "^4.0.4",
     "request": "^2.88.2",
-    "socket.io": "^4.4.1",
+    "socket.io": "^4.5.3",
     "util": "^0.12.4",
     "web-vitals": "^2.1.4"
   },
